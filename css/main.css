@@ -216,10 +216,7 @@ hr {
 	height: 0;
 }
 
-/**
- * Lists - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
+
 ol {
 	list-style: decimal;
 }
@@ -264,10 +261,6 @@ dd {
 	margin: 0 0 0 2rem;
 }
 
-/**
- * tables - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 table {
 	border-width: 0;
 	width: 100%;
@@ -297,10 +290,6 @@ th:last-child, td:last-child {
 	-webkit-overflow-scrolling: touch;
 }
 
-/**
- * Spacing - (_document-setup.scss)  
- * -------------------------------------------------------------------
- */
 button, .button {
 	margin-bottom: 1.2;
 }
@@ -1018,12 +1007,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
- * ===================================================================
- * 09. header styles - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
+
 header {
 	position: fixed;
 	width: 100%;
@@ -1040,7 +1024,6 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
 	top: 0;
 }
 header .logo {
@@ -1064,10 +1047,7 @@ header .logo a {
 	background-size: 92px 15px;
 }
 
-/**
- * menu toggle - (_layout.css)
- * ------------------------------------------------------------------- 
- */
+
 .menu-toggle {
 	float: left;
 	width: 40px;
@@ -1157,7 +1137,7 @@ header .logo a {
 	transform: rotate(-45deg);
 }
 
-/* navigation panel */
+
 #main-nav-wrap {
 	display: block;
 	width: 100%;
@@ -1201,39 +1181,10 @@ header .logo a {
 	color: #FF0077;
 }
 
-/**
- * responsive:
- * header styles
- * --------------------------------------------------------------- 
- */
-@media only screen and (max-width:1024px) {
-	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
-	}
-}
 
 
-/** 
- * ===================================================================
- * 10. intro - (_layout.scss) 
- *
- * ------------------------------------------------------------------- 
- */
+
+
 #intro {
 	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
@@ -1953,7 +1904,7 @@ header .logo a {
 	transform: translateY(0);
 }
 
-/* content animate out */
+
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
 	opacity: 0;
 	-webkit-transform: translateY(-100%);
@@ -1961,37 +1912,7 @@ header .logo a {
 	transform: translateY(-100%);
 }
 
-/** 
- * ===================================================================
- * 14. call-to-action section - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#cta {
-	padding-top: 10.2rem;
-	padding-bottom: 9rem;
-	text-align: center;
-}
-#cta p.lead {
-	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
-}
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
 
-/**
- * section ads - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
 .section-ads h2 {
 	position: relative;
 	padding-bottom: 2.1rem;
@@ -2014,27 +1935,6 @@ header .logo a {
 	color: #3F0D39;
 }
 
-/**
- * responsive:
- * cta
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:650px) {
-	.cta-content {
-		max-width: 650px;
-	}
-	.cta-content h2 {
-		font-size: 2.4rem;
-	}
-}
-
-
-/** 
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
 #services {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
